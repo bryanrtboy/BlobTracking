@@ -1,0 +1,19 @@
+﻿The mapping files are serialized with Unity 4.3. 
+
+If you use the mapping files in another version of Unity it is possible that weired problems arise.
+
+You have to do a couple of steps to circumvent obscure behavior and exceptions.
+
+1. Close the UniOSC Editor.
+
+2. Unzip the mapping files folder.
+
+3. Go to  'Edit/Project Settings/Editor'
+
+4. Switch the Asset Serialization Mode to 'Force Text'.
+
+5. Switch back to 'Force Binary'.
+
+
+
+Your mapping files should now be OK for the Unity version you use. 

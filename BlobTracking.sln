@@ -1,14 +1,24 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-
+Project("{6970DD86-4BDA-F0AB-E958-F834332B99C8}") = "BlobTracking", "Assembly-CSharp.csproj", "{4E22480D-71BD-A917-9BCC-C1996135E0D2}"
+EndProject
+Project("{6970DD86-4BDA-F0AB-E958-F834332B99C8}") = "BlobTracking", "Assembly-CSharp-Editor.csproj", "{C35B1FBE-3F6B-1DAE-BC12-444599FBD787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{4E22480D-71BD-A917-9BCC-C1996135E0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E22480D-71BD-A917-9BCC-C1996135E0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E22480D-71BD-A917-9BCC-C1996135E0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E22480D-71BD-A917-9BCC-C1996135E0D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C35B1FBE-3F6B-1DAE-BC12-444599FBD787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C35B1FBE-3F6B-1DAE-BC12-444599FBD787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C35B1FBE-3F6B-1DAE-BC12-444599FBD787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C35B1FBE-3F6B-1DAE-BC12-444599FBD787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
