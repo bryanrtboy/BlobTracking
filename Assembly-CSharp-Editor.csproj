@@ -60,6 +60,7 @@
      <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\Example.Components\Editor\UniOSCToggleEditor.cs" />
      <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\ScriptableObjects\Editor\UniOSCMappingFileObjEditor.cs" />
      <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\ScriptableObjects\Editor\UniOSCSessionFileObjEditor.cs" />
+     <None Include="Assets\BlobTracking\Materials\Projector Additive.shader" />
      <None Include="Assets\AssetStoreTools\UniOSC\Examples\MappingFiles\Read.Me.First!.txt" />
      <None Include="Assets\AssetStoreTools\UniOSC\Scripts\External\InputDevices\ReadMe.txt" />
      <None Include="Assets\AssetStoreTools\UniOSC\Scripts\External\Flux\ReadMe.txt" />
@@ -117,17 +118,19 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+ <Reference Include="OSCsharp">
+ <HintPath>/Users/bryan/Documents/Git/BlobTracking/Assets/AssetStoreTools/UniOSC/Lib/OSCsharp.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="OSCsharp">
- <HintPath>/Users/bryan/Documents/Git/BlobTracking/Assets/AssetStoreTools/UniOSC/Lib/OSCsharp.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{DB241996-318B-CD81-A829-1A2D3F73C807}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{4E22480D-71BD-A917-9BCC-C1996135E0D2}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>

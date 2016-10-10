@@ -46,46 +46,45 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\ClassBased\Demo\UniOSCClassBasedDemo.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\ClassBased\Example.Classes\UniOSCEventDispatcherCBImplementation.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\ClassBased\Example.Classes\UniOSCEventDispatcherCBRawImplementation.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\ClassBased\Example.Classes\UniOSCEventDispatcherCBSimple.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\ClassBased\Example.Classes\UniOSCEventTargetCBImplementation.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\ClassBased\UniOSCEventDispatcherCB.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\ClassBased\UniOSCEventTargetCB.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\Example.Components\UniOSCChangeColor.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\Example.Components\UniOSCEventDispatcherButton.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\Example.Components\UniOSCEventDispatcherImplementation.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\Example.Components\UniOSCEventDispatcherMultiAddressSender.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\Example.Components\UniOSCEventDispatcherMultiConnectionSender.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\Example.Components\UniOSCEventDispatcherSlider.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\Example.Components\UniOSCEventDispatcherToggle.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\Example.Components\UniOSCEventTargetImplementation.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\Example.Components\UniOSCMoveGameObject.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\Example.Components\UniOSCRotateGameObject.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\Example.Components\UniOSCRotateGameObjectTouchOSCGyro.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\Example.Components\UniOSCScaleGameObject.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\Example.Components\UniOSCToggle.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\Example.Components\UniOSCTransformSender.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\GUIScaler.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\ScriptableObjects\UniOSCEditorConfigObj.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\ScriptableObjects\UniOSCFileObj.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\ScriptableObjects\UniOSCMappingFileObj.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\ScriptableObjects\UniOSCSessionFileObj.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\UniOSCAbstractItem.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\UniOSCConnection.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\UniOSCEventArgs.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\UniOSCEventDispatcher.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\UniOSCEventTarget.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\UniOSCGUI.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\UniOSCMappingItem.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\UniOSCReceiver.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\UniOSCSessionItem.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\UniOSCTransmitter.cs" />
-     <Compile Include="Assets\AssetStoreTools\UniOSC\Scripts\UniOSCUtils.cs" />
-     <None Include="Assets\AssetStoreTools\UniOSC\Examples\MappingFiles\Read.Me.First!.txt" />
-     <None Include="Assets\AssetStoreTools\UniOSC\Scripts\External\InputDevices\ReadMe.txt" />
-     <None Include="Assets\AssetStoreTools\UniOSC\Scripts\External\Flux\ReadMe.txt" />
+     <Compile Include="Assets\BlobTracking\CalibrationManager.cs" />
+     <Compile Include="Assets\BlobTracking\CameraZoom.cs" />
+     <Compile Include="Assets\BlobTracking\NudgeCanvas.cs" />
+     <Compile Include="Assets\BlobTracking\RendererBounds.cs" />
+     <Compile Include="Assets\BlobTracking\ScaleObject.cs" />
+     <Compile Include="Assets\OpenTSPS\Plugins\OSC.NET\jsOSCBundle.cs" />
+     <Compile Include="Assets\OpenTSPS\Plugins\OSC.NET\jsOSCMessage.cs" />
+     <Compile Include="Assets\OpenTSPS\Plugins\OSC.NET\jsOSCPacket.cs" />
+     <Compile Include="Assets\OpenTSPS\Plugins\OSC.NET\jsOSCReceiver.cs" />
+     <Compile Include="Assets\OpenTSPS\Plugins\OSC.NET\jsOSCTransmitter.cs" />
+     <Compile Include="Assets\OpenTSPS\Plugins\TSPS\OpenTSPSListener.cs" />
+     <Compile Include="Assets\OpenTSPS\Plugins\TSPS\OpenTSPSPerson.cs" />
+     <Compile Include="Assets\OpenTSPS\Plugins\TSPS\OpenTSPSReceiver.cs" />
+     <Compile Include="Assets\OpenTSPS\Scripts\OpenTSPSUnityListener.cs" />
+     <Compile Include="Assets\Scripts\Extensions\AnimationRandomizer.cs" />
+     <Compile Include="Assets\Scripts\Extensions\AnimationSpeed.cs" />
+     <Compile Include="Assets\Scripts\Extensions\AudioPlayer.cs" />
+     <Compile Include="Assets\Scripts\Extensions\Camera2DFollow.cs" />
+     <Compile Include="Assets\Scripts\Extensions\CameraFade.cs" />
+     <Compile Include="Assets\Scripts\Extensions\CanvasFader.cs" />
+     <Compile Include="Assets\Scripts\Extensions\DieRespawnAfterDelay.cs" />
+     <Compile Include="Assets\Scripts\Extensions\FadeColorOnStart.cs" />
+     <Compile Include="Assets\Scripts\Extensions\LevelLoader.cs" />
+     <Compile Include="Assets\Scripts\Extensions\MakeNodesFromSVG.cs" />
+     <Compile Include="Assets\Scripts\Extensions\MoveBezierTowardsTarget.cs" />
+     <Compile Include="Assets\Scripts\Extensions\MoveTowards.cs" />
+     <Compile Include="Assets\Scripts\Extensions\RandomIdle.cs" />
+     <Compile Include="Assets\Scripts\Extensions\RandomPlacement.cs" />
+     <Compile Include="Assets\Scripts\Extensions\RandomScale.cs" />
+     <Compile Include="Assets\Scripts\Extensions\RotateAround.cs" />
+     <Compile Include="Assets\Scripts\Extensions\SetSliderOnAwake.cs" />
+     <Compile Include="Assets\Scripts\Extensions\ShowFPS.cs" />
+     <Compile Include="Assets\Scripts\Extensions\ShowHide.cs" />
+     <Compile Include="Assets\Scripts\Extensions\ShowSliderNumber.cs" />
+     <Compile Include="Assets\Scripts\Extensions\Spawner.cs" />
+     <Compile Include="Assets\Scripts\Extensions\SplineNodeController.cs" />
+     <Compile Include="Assets\Scripts\Extensions\Tags.cs" />
+     <Compile Include="Assets\Scripts\Extensions\Utilities.cs" />
+     <None Include="Assets\BlobTracking\Materials\Projector Additive.shader" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
@@ -109,9 +108,6 @@
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
- </Reference>
- <Reference Include="OSCsharp">
- <HintPath>/Users/bryan/Documents/Git/BlobTracking/Assets/AssetStoreTools/UniOSC/Lib/OSCsharp.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
